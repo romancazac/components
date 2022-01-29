@@ -9,9 +9,13 @@ function Counter() {
     }
     return(
         <>
-        <h2>Value{count}</h2>
-        <button onClick={decrement}>+</button>
-        <button onClick={increment}>-</button>
+        <div className="wrapper__counter">
+            <h2>Value{count}</h2>
+            <button onClick={decrement}>+</button>
+            <button onClick={increment}>-</button>
+        </div>
+        
+       
         </>
     )
 }

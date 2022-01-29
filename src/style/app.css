@@ -1,0 +1,19 @@
+.wrapper__counter{
+    padding: 20px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:   0 0 10px 0;
+}
+.wrapper__counter button, input{
+    width: 100%;
+    margin:  0 0 1px 0;
+    border: 1px solid blue;
+}
+.post__row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

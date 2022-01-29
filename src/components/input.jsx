@@ -6,11 +6,16 @@ function Input(){
     }
     
     return(
-        <>  <p>{value}</p>
-            <input 
-            value={value} 
-            onChange={onChange}
-            />
+        <>  
+            
+            <div className="wrapper__counter">
+                <p>{value}</p>
+                <input 
+                value={value} 
+                onChange={onChange}
+                />
+            </div>
+            
         </>
     )
 }
